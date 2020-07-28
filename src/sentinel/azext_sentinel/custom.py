@@ -311,7 +311,6 @@ def _get_resource_files(
         resource_files = [Path(resource_file)]
     return resource_files
 
-
 def _create_or_update_detection(
     security_client: SecurityClient, detection_file: Path, force_link_playbook: bool
 ) -> AlertRule:
